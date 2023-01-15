@@ -27,7 +27,7 @@ const Footer = () => {
                 </Col>
             </Row>
             <hr />
-            <p className='text-center' id="copyright">© Copyright 2023. Made by <a id="web-link-footer" href="http://localhost:3000">Abhin Tomar</a></p>
+            <p className='text-center' id="copyright">© Copyright 2023. Made by <a id="web-link-footer" href="https://abhinsportfolio.netlify.app/">Abhin Tomar</a></p>
         </Container>
     </Container>
   )

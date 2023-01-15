@@ -7,8 +7,8 @@ const Project = ({image, name, description, demo_link, github_link, used}) => {
         <Row className='mt-5'>
             <Col className='align-items-center d-flex pb-5 flex-wrap justify-content-center'>
                 <Image fluid src={image} rounded className='h-75 w-85' />
-                <a href={demo_link}><Button variant='warning' size='lg' className='proj-btn'>Live Demo</Button></a>
-                <a href={github_link}><Button variant='warning' size='lg' className='proj-btn'>Github</Button></a>
+                <a href={demo_link} target="_blank"><Button variant='warning' size='lg' className='proj-btn'>Live Demo</Button></a>
+                <a href={github_link} target="_blank"><Button variant='warning' size='lg' className='proj-btn'>Github</Button></a>
             </Col>
             <Col className='d-flex pb-5'>
                 <Container className='text-start pt-5' id='proj-desc'>
