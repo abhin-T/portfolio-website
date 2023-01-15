@@ -1,0 +1,58 @@
+#contact-div {
+    min-height: 120vh !important;
+    background-image: url('../../assets/contactBg.jpg');
+}
+
+#form {
+    margin: 1.5rem !important;
+}
+
+#submit-btn {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+
+#submit-btn:hover {
+    color: white !important;
+    transform: translateY(-0.05em);
+  }
+
+form div {
+    margin-bottom: 2rem !important;
+    height: 4rem !important;
+}
+
+input {
+    height: 100% !important;
+}
+
+#msg {
+    height: auto !important;
+    margin-bottom: 2rem !important;
+}
+
+textarea {
+    resize: none !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    font-size: 1rem !important;
+    overflow-y: scroll !important;
+}
+
+input, textarea {
+    color: black !important;   
+}
+
+input:focus, textarea:focus { 
+    border-color: #ffc533 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #ffc533 !important;
+    outline: 0 none !important;
+}
+
+.label-bot-1 {
+    margin-top: 2rem !important;
+}
+
+.label-bot-2 {
+    margin-top: 4rem !important;
+}

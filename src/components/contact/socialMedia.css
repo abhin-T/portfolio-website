@@ -1,0 +1,56 @@
+#contact-row {
+    border-radius: 2rem !important;
+    border-color: black !important;
+    width: 60% !important;
+    margin: 1.5rem !important;
+    background-color: white !important;
+}
+
+#contact-row:active, #contact-row:hover {
+    background-color: transparent !important;
+}
+
+a.contact:link {
+    text-decoration: none;
+}
+  
+a.contact:visited {
+    text-decoration: none;
+}
+  
+a.contact:hover {
+    text-decoration: underline;
+}
+  
+a.contact:active {
+    text-decoration: underline;
+}
+
+a.contact {
+    margin-bottom: 1.5rem !important;
+}
+
+#icon {
+    margin-top: 1rem !important;
+    margin-bottom: 1.2rem !important;
+    font-size: 2rem !important;
+}
+
+#name {
+    margin-top: 0 !important;
+    margin-bottom: 0.2rem !important;
+    font-size: 1.75rem !important;
+}
+
+#info {
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+    font-size: 1rem !important;
+    color: #52514e !important;
+}
+
+@media screen and (max-width: 1024px) {
+    #info {
+        font-size: 0.8rem !important;
+    }
+}

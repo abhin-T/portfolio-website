@@ -1,0 +1,34 @@
+h1 {
+    font-size: 5rem !important;
+}
+
+#intro-cont {
+    min-height: 92.5vh !important;
+    padding: 0 !important;
+    background-image: url('../../assets/bg.jpg');
+}
+
+h1, p, button {
+    margin: 2rem !important;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+#intro-p {
+    font-size: 1.3rem !important;
+    width: 75% !important;
+    margin-top: 0 !important;
+}
+
+.resume-btn {
+    width: 15rem !important;
+    height: 3.5rem !important;
+    font-size: 1.7rem !important;
+}
+
+.resume-btn:hover {
+  color: white !important;
+  transform: translateY(-0.05em);
+}

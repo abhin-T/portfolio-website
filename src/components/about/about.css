@@ -1,0 +1,24 @@
+.about-row {
+    height: 100% !important;
+}
+
+#self {
+    height: 50% !important;
+    width: 75% !important;
+}
+
+.about {
+    background-color: transparent;
+}
+
+.tagcloud {
+    color: black;
+}
+
+#sphere {
+    display: flex;
+}
+
+#sphere div {
+    width: calc(min(500, 50vh, 50vw) / 2);
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navigation {
+    background-color: white;
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 1.3rem;
+}
+
+.nav-item, .nav-icon {
+    color: black !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-item:hover, .nav-icon:hover {
+    color: #ffd500 !important;
+}
+
+.nav-item:after {
+    content:"";
+    display:block;
+    width: 0.7em;
+    border-bottom: 0.15em solid white;
+    margin: 0.2em auto 0;
+    border-radius: 1em;
+}
+
+.selected:after {
+    border-bottom: 0.15em solid #ffc533 !important;
+}
+
+.selected {
+    pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-icon {
+        display: none !important;
+    }
+}
