@@ -11,7 +11,7 @@ const Footer = () => {
             <Row>
                 <Col>
                     <h4>Abhin Tomar</h4>
-                    <p className='footer'>A computer science student experienced in working with both the front-end and back-end sides of an application</p>
+                    <p className='footer'>A computer science student with a strong grasp of the full application development cycle, spanning front-end and back-end domains</p>
                 </Col>
                 <Col className='d-flex justify-content-end'>
                     <Container fluid className='m-0 p-0 w-auto'>

@@ -11,7 +11,7 @@ const About = ({ useref }) => {
         <Row className='align-items-center about-row mt-5'>
         <Col>
           <Container className='rounded-5 p-5 about'>
-            <p className='text-start'>I'm currently a <b>2nd year</b> computer science student at the <b>University of Toronto</b>.<br /><br />Computer science and programming have been a hobby for me ever since I was first introduced to the subject. Now, I often spend most of my free time learning new technologies that I can work with and creating fun and interesting projects. Check out some of my projects in the <b>Work</b> section.<br /><br />I'm open to <b>Job / Internship</b> oppurtunities where I can contribute, learn, and grow. Feel free to contact me through any of my social media links posted here.</p>
+            <p className='text-start'>I'm currently a <b>3rd year</b> computer science student at the <b>University of Toronto</b>.<br /><br />Computer science and programming have been a hobby for me ever since I was first introduced to the subject. Now, I often spend most of my free time learning new technologies that I can work with and creating fun and interesting projects. Check out some of my projects in the <b>Projects</b> section.<br /><br />I'm open to <b>Job / Internship</b> oppurtunities where I can contribute, learn, and grow. Feel free to contact me through any of my social media links posted here.</p>
           </Container>
         </Col>
         <Col id="sphere" className='justify-content-center'>
@@ -25,13 +25,17 @@ const About = ({ useref }) => {
               "HTML",
               "CSS",
               "Python",
+              "C",
               "React",
               "Java",
               "Javascript",
               "Node",
               "Bootstrap",
               "Express",
+              "Flask",
+              "Firebase",
               "MongoDB",
+              "Bash",
               "Terminal",
               "Git"
               ]
